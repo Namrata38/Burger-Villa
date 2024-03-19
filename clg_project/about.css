@@ -1,0 +1,51 @@
+/*About*/
+.about{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+
+ }
+ .about .about-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .about .about-main .image img{
+    width: 500px;
+    position: relative;
+    top:60px;
+
+
+ }
+ .about .about-main .about-text h1 span{
+    color:red;
+    margin-right: 15px;
+    font-family: mv boli;
+
+ }
+ .about .about-main .about-text h1{
+    font-size: 55px;
+    position: relative;
+    bottom: 50px;
+
+ }
+ .about .about-main .about-text h3{
+    font-size: 30px;
+    margin: 0 0 50px 0;
+ }
+ .about .about-main .about-text p{
+    width: 650px;
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 22px;
+
+ }
+ .about .about-btn{
+    background:blue;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    left: 45%;
+    bottom: 5px;
+ }
